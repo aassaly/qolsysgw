@@ -1,3 +1,4 @@
+"""Qolsys Integration for HACS."""
 import logging
 import traceback
 import uuid
@@ -69,6 +70,7 @@ def fqcn(o):
 
 
 class QolsysGateway(Mqtt):
+    
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
