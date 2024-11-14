@@ -7,7 +7,7 @@ name = "qolsys"
 description = "Qolsys IQ Panel 2+ gateway API"
 dynamic = ["version"]
 dependencies = []
-requires-python = ">=3.8"
+requires-python = ">=3.8,<3.11.0"
 authors = [
   {name = "Raphaël Beamonte", email = "raphael.beamonte@gmail.com"},
 ]
@@ -32,11 +32,11 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/xaf/qolsysgw"
-Documentation = "https://github.com/xaf/qolsysgw"
-Repository = "https://github.com/xaf/qolsysgw.git"
-Issues = "https://github.com/xaf/qolsysgw/issues"
-Changelog = "https://github.com/xaf/qolsysgw/commits/main/"
+Homepage = "https://github.com/aassaly/qolsysgw"
+Documentation = "https://github.com/aassaly/qolsysgw"
+Repository = "https://github.com/aassaly/qolsysgw.git"
+Issues = "https://github.com/aassaly/qolsysgw/issues"
+Changelog = "https://github.com/aassaly/qolsysgw/commits/main/"
 
 [tool.hatch.version]
 path = "build_version.py"
